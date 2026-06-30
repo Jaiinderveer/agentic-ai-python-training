@@ -23,7 +23,6 @@
 number_of_bricks = int(input('Enter Number of Bricks: '))
 
 remaining = number_of_bricks
-turn = 1 
 n = 1     
 
 while remaining > 0:
