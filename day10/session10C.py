@@ -31,6 +31,17 @@ print(keywords)
 if 'chai' in keywords:
     print('What kind of Tea you want?')
     
+line = '='*60
+
+print(line)
+
+# password = '          password123        '.strip()
+# password = '          password123        '.rstrip()
+password = '          password123        '.lstrip()
+bill_amt = '23.45000'.rstrip('0')
+
+print(password)
+print(bill_amt)
 # email = input('Enter Your Email: ')
 # password = input('Enter Your Password: ')
 # print('Email Entered',email)
@@ -62,15 +73,3 @@ print(vehicle_no[::-1])
 # String Concatenation
 full_name = 'John' + ' ' + 'Watson'
 print(f'Full Name is: {full_name}')
-
-line = '='*60
-
-print(line)
-
-# password = '          password123        '.strip()
-# password = '          password123        '.rstrip()
-password = '          password123        '.lstrip()
-bill_amt = '23.45000'.rstrip('0')
-
-print(password)
-print(bill_amt)
