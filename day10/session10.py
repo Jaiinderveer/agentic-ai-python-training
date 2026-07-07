@@ -29,10 +29,10 @@ class Vehicle:
 
     def show(self):
         print('~~~~~~~~~~~~~~VEHICLE~~~~~~~~~~~~~~')
-        print(f'{self.registration_no} | {self.type}')
+        # print(f'{self.registration_no} | {self.type}')
         print('{registration_no} | {type}'.format_map(vars(self)))
         
         self.fasttag.show()
         
         print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
-        print('~'*30 + '\n')
+        # print('~'*30 + '\n')
