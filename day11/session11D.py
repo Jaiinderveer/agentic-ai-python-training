@@ -13,6 +13,7 @@
 """
 import requests
 import json
+api_key = open('day11/api_key.txt','r').read().strip()
 newsapi_url = f'https://newsapi.org/v2/top-headlines?country=us&apiKey={api_key}'
 response = requests.get(newsapi_url)
 news_json = response.text
